@@ -1,0 +1,314 @@
+{
+  "order": 3,
+  "name": "NYXVOLT",
+  "tagline": "Energy drink · 9 flavours",
+  "project": "Creative dashboard: NYXVOLT",
+  "description": "Every card is a flavour of one 12-second energy drink ad: its own can, its own thing to smash in the opening, its own copy. Pick a flavour or mix the art, change the copy, give it a motion, then render every changed card.",
+  "columns": [
+    {
+      "id": "hook1",
+      "label": "Hook line 1",
+      "kind": "text",
+      "layer": "Hook line 1",
+      "maxLength": 12,
+      "default": "BURN THE"
+    },
+    {
+      "id": "hook2",
+      "label": "Hook line 2",
+      "kind": "text",
+      "layer": "Hook line 2",
+      "maxLength": 14,
+      "default": "SPREADSHEET."
+    },
+    {
+      "id": "flavour",
+      "label": "Flavour",
+      "kind": "text",
+      "layer": "Flavour",
+      "maxLength": 24,
+      "default": "200MG PURE\nMUTINY.",
+      "multiline": true
+    },
+    {
+      "id": "taste",
+      "label": "Taste",
+      "kind": "text",
+      "layer": "Taste",
+      "maxLength": 26,
+      "default": "ZERO SUGAR.\nRAW FOCUS.",
+      "multiline": true
+    },
+    {
+      "id": "badge",
+      "label": "Badge",
+      "kind": "text",
+      "layer": "Badge",
+      "maxLength": 36,
+      "default": "FIRST CAN ON THE HOUSE // 7AM-7PM"
+    },
+    {
+      "id": "can",
+      "label": "Can",
+      "kind": "image",
+      "layer": "Can",
+      "original": "images/can.png",
+      "library": "images/library/can/"
+    },
+    {
+      "id": "object",
+      "label": "Opening object",
+      "kind": "image",
+      "layer": "Object",
+      "original": "images/object.png",
+      "library": "images/library/object/"
+    }
+  ],
+  "looks": {
+    "label": "Flavour",
+    "items": [
+      {
+        "id": "original",
+        "label": "Original"
+      },
+      {
+        "id": "mango-riot",
+        "label": "Mango Riot"
+      },
+      {
+        "id": "berry-static",
+        "label": "Berry Static"
+      },
+      {
+        "id": "lime-overclock",
+        "label": "Lime Overclock"
+      },
+      {
+        "id": "blood-orange",
+        "label": "Blood Orange"
+      },
+      {
+        "id": "ice-mint",
+        "label": "Ice Mint"
+      },
+      {
+        "id": "grape-glitch",
+        "label": "Grape Glitch"
+      },
+      {
+        "id": "blue-surge",
+        "label": "Blue Surge"
+      },
+      {
+        "id": "cola-crash",
+        "label": "Cola Crash"
+      }
+    ]
+  },
+  "preview": [
+    {
+      "src": "preview.jpg",
+      "box": [
+        0,
+        0,
+        100,
+        100
+      ],
+      "fit": "cover"
+    },
+    {
+      "text": "flavour",
+      "box": [
+        4,
+        4,
+        22,
+        92
+      ],
+      "size": 9.5,
+      "color": "#0b0d0b",
+      "weight": 900,
+      "upper": true,
+      "font": "'Big Shoulders Stencil Display', 'Black Ops One', sans-serif",
+      "rotate": -90
+    },
+    {
+      "column": "can",
+      "box": [
+        35.5,
+        5.5,
+        27,
+        88.3
+      ]
+    },
+    {
+      "text": "taste",
+      "box": [
+        64,
+        30,
+        35,
+        34
+      ],
+      "size": 3.6,
+      "color": "#f2f2ea",
+      "weight": 900,
+      "upper": true,
+      "font": "'Big Shoulders Stencil Display', 'Black Ops One', sans-serif"
+    }
+  ],
+  "rows": [
+    {
+      "name": "Original launch",
+      "look": "original",
+      "hook1": "BURN THE",
+      "hook2": "SPREADSHEET.",
+      "flavour": "200MG PURE\nMUTINY.",
+      "taste": "ZERO SUGAR.\nRAW FOCUS.",
+      "badge": "FIRST CAN ON THE HOUSE // 7AM-7PM",
+      "effect": "original"
+    },
+    {
+      "name": "Mango Riot",
+      "look": "mango-riot",
+      "hook1": "KILL THE",
+      "hook2": "ALARM CLOCK.",
+      "flavour": "200MG MANGO\nRIOT.",
+      "taste": "ZERO SUGAR.\nREAL MANGO.",
+      "badge": "NEW: MANGO RIOT // OUT NOW",
+      "effect": "slam"
+    },
+    {
+      "name": "Berry Static",
+      "look": "berry-static",
+      "hook1": "MUTE THE",
+      "hook2": "GROUP CHAT.",
+      "flavour": "200MG BERRY\nSTATIC.",
+      "taste": "ZERO SUGAR.\nWILD BERRY.",
+      "badge": "BERRY STATIC // LIMITED DROP",
+      "effect": "drop"
+    },
+    {
+      "name": "Lime Overclock",
+      "look": "lime-overclock",
+      "hook1": "CRASH THE",
+      "hook2": "DEADLINE.",
+      "flavour": "200MG LIME\nOVERCLOCK.",
+      "taste": "ZERO SUGAR.\nSOUR LIME.",
+      "badge": "LIME OVERCLOCK // 2 FOR $5",
+      "effect": "spin"
+    },
+    {
+      "name": "Blood Orange",
+      "look": "blood-orange",
+      "hook1": "HANG UP ON",
+      "hook2": "THE MEETING.",
+      "flavour": "200MG BLOOD\nORANGE.",
+      "taste": "ZERO SUGAR.\nPURE ZEST.",
+      "badge": "BLOOD ORANGE // FRIDAYS ONLY",
+      "effect": "slide"
+    },
+    {
+      "name": "Ice Mint",
+      "look": "ice-mint",
+      "hook1": "COOL THE",
+      "hook2": "COMMUTE.",
+      "flavour": "200MG ICE\nMINT.",
+      "taste": "ZERO SUGAR.\nCOLD SNAP.",
+      "badge": "ICE MINT // SERVED SUB-ZERO",
+      "effect": "swing"
+    },
+    {
+      "name": "Grape Glitch",
+      "look": "grape-glitch",
+      "hook1": "GLITCH THE",
+      "hook2": "GRIND.",
+      "flavour": "200MG GRAPE\nGLITCH.",
+      "taste": "ZERO SUGAR.\nDARK GRAPE.",
+      "badge": "GRAPE GLITCH // NIGHT SHIFT ONLY",
+      "effect": "original"
+    },
+    {
+      "name": "Blue Surge",
+      "look": "blue-surge",
+      "hook1": "SHOCK THE",
+      "hook2": "SYSTEM.",
+      "flavour": "200MG BLUE\nSURGE.",
+      "taste": "ZERO SUGAR.\nBLUE RASP.",
+      "badge": "BLUE SURGE // NEW AT THE BUNKER",
+      "effect": "slam"
+    },
+    {
+      "name": "Cola Crash",
+      "look": "cola-crash",
+      "hook1": "BURN THE",
+      "hook2": "BUDGET.",
+      "flavour": "200MG COLA\nCRASH.",
+      "taste": "ZERO SUGAR.\nCHERRY COLA.",
+      "badge": "COLA CRASH // FIRST CAN FREE",
+      "effect": "drop"
+    }
+  ],
+  "effects": {
+    "label": "Motion",
+    "items": [
+      {
+        "id": "original",
+        "label": "As designed"
+      },
+      {
+        "id": "slam",
+        "label": "Slam",
+        "motion": {
+          "Object": "slam",
+          "Can (scene 2)": "slam",
+          "Can (ending)": "slam",
+          "Badge Stamp Null": "slam"
+        }
+      },
+      {
+        "id": "drop",
+        "label": "Drop in",
+        "motion": {
+          "Hook line 1": "drop",
+          "Hook line 2": "drop",
+          "Can (scene 2)": "drop",
+          "Card Master Null": "drop",
+          "Can (ending)": "drop",
+          "Badge Stamp Null": "drop"
+        }
+      },
+      {
+        "id": "spin",
+        "label": "Spin",
+        "motion": {
+          "Object": "spin",
+          "Can (scene 2)": "spin",
+          "Can (ending)": "spin",
+          "Badge Stamp Null": "pop"
+        }
+      },
+      {
+        "id": "slide",
+        "label": "Slide",
+        "motion": {
+          "Hook line 1": "slide-left",
+          "Hook line 2": "slide-right",
+          "Object": "slide-right",
+          "Can (scene 2)": "slide-right",
+          "Card Master Null": "slide-left",
+          "Can (ending)": "slide-right",
+          "Brand": "slide-left"
+        }
+      },
+      {
+        "id": "swing",
+        "label": "Swing",
+        "motion": {
+          "Object": "swing",
+          "Can (scene 2)": "swing",
+          "Can (ending)": "swing",
+          "Badge Stamp Null": "swing"
+        }
+      }
+    ]
+  }
+}

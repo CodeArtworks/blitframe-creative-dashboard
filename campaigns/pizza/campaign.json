@@ -1,0 +1,380 @@
+{
+  "order": 2,
+  "name": "ZaZing Pizza",
+  "tagline": "Pizza deals · 9 looks",
+  "project": "Creative dashboard: ZaZing Pizza",
+  "description": "Every card is a variant of one 12-second pizza ad, with a new slice, new ingredients and its own deal in the same paper-collage style. Pick a look or mix the art, change the copy, give it a motion, then render every changed card.",
+  "columns": [
+    {
+      "id": "hook",
+      "label": "Hook",
+      "kind": "text",
+      "layer": "Hook",
+      "maxLength": 14
+    },
+    {
+      "id": "deal",
+      "label": "Deal",
+      "kind": "text",
+      "layer": "Deal",
+      "maxLength": 14
+    },
+    {
+      "id": "dealDetail",
+      "label": "Deal detail",
+      "kind": "text",
+      "layer": "Deal detail",
+      "maxLength": 20
+    },
+    {
+      "id": "price",
+      "label": "Price",
+      "kind": "text",
+      "layer": "Price",
+      "maxLength": 4
+    },
+    {
+      "id": "callToAction",
+      "label": "Call to action",
+      "kind": "text",
+      "layer": "Call to action",
+      "maxLength": 18
+    },
+    {
+      "id": "pizza",
+      "label": "Pizza",
+      "kind": "image",
+      "layer": "Pizza",
+      "original": "images/pizza.png",
+      "library": "images/library/pizza/"
+    },
+    {
+      "id": "ingredient",
+      "label": "Ingredient",
+      "kind": "image",
+      "layer": "Ingredient",
+      "original": "images/ingredient.png",
+      "library": "images/library/ingredient/"
+    },
+    {
+      "id": "garnish",
+      "label": "Garnish",
+      "kind": "image",
+      "layer": "Garnish",
+      "original": "images/garnish.png",
+      "library": "images/library/garnish/"
+    }
+  ],
+  "looks": {
+    "label": "Look",
+    "items": [
+      {
+        "id": "original",
+        "label": "Pepperoni"
+      },
+      {
+        "id": "veggie-supreme",
+        "label": "Veggie Supreme"
+      },
+      {
+        "id": "bbq-chicken",
+        "label": "BBQ Chicken"
+      },
+      {
+        "id": "hawaiian",
+        "label": "Hawaiian"
+      },
+      {
+        "id": "margherita",
+        "label": "Margherita"
+      },
+      {
+        "id": "meat-feast",
+        "label": "Meat Feast"
+      },
+      {
+        "id": "hot-honey",
+        "label": "Hot Honey"
+      },
+      {
+        "id": "four-cheese",
+        "label": "Four Cheese"
+      },
+      {
+        "id": "dessert",
+        "label": "Dessert pizza"
+      }
+    ]
+  },
+  "preview": [
+    {
+      "src": "preview.jpg",
+      "box": [
+        0,
+        0,
+        100,
+        100
+      ],
+      "fit": "cover"
+    },
+    {
+      "column": "garnish",
+      "box": [
+        24,
+        4,
+        13,
+        20
+      ]
+    },
+    {
+      "column": "garnish",
+      "box": [
+        70,
+        0,
+        13,
+        17
+      ]
+    },
+    {
+      "column": "garnish",
+      "box": [
+        19,
+        80,
+        17,
+        20
+      ]
+    },
+    {
+      "column": "garnish",
+      "box": [
+        51,
+        73,
+        12,
+        20
+      ]
+    },
+    {
+      "column": "ingredient",
+      "box": [
+        57,
+        0,
+        13,
+        23
+      ]
+    },
+    {
+      "column": "ingredient",
+      "box": [
+        63,
+        79,
+        12,
+        21
+      ]
+    },
+    {
+      "column": "pizza",
+      "box": [
+        -3,
+        8,
+        26,
+        82
+      ]
+    },
+    {
+      "column": "pizza",
+      "box": [
+        77,
+        8,
+        26,
+        82
+      ]
+    },
+    {
+      "text": "deal",
+      "box": [
+        23,
+        31,
+        54,
+        17
+      ],
+      "size": 5.2,
+      "weight": 700,
+      "align": "center",
+      "font": "'IBM Plex Sans', sans-serif"
+    },
+    {
+      "text": "dealDetail",
+      "box": [
+        23,
+        50,
+        54,
+        12
+      ],
+      "size": 3.8,
+      "weight": 700,
+      "align": "center",
+      "font": "'IBM Plex Sans', sans-serif"
+    }
+  ],
+  "rows": [
+    {
+      "name": "Pepperoni classic",
+      "look": "original",
+      "hook": "BASIC SLICES?",
+      "deal": "2 LARGE PIES.",
+      "dealDetail": "UNLIMITED TOPPINGS.",
+      "price": "$18",
+      "callToAction": "GRAB THE DEAL NOW",
+      "effect": "original"
+    },
+    {
+      "name": "Veggie Supreme",
+      "look": "veggie-supreme",
+      "hook": "SAD SALADS?",
+      "deal": "2 VEGGIE PIES.",
+      "dealDetail": "PILED-HIGH VEGGIES.",
+      "price": "$16",
+      "callToAction": "GO GREEN TONIGHT",
+      "effect": "slam"
+    },
+    {
+      "name": "BBQ Chicken",
+      "look": "bbq-chicken",
+      "hook": "BLAND CHICKEN?",
+      "deal": "2 BBQ PIES.",
+      "dealDetail": "GRILLED CHICKEN.",
+      "price": "$20",
+      "callToAction": "GET SAUCED NOW",
+      "effect": "drop"
+    },
+    {
+      "name": "Hawaiian",
+      "look": "hawaiian",
+      "hook": "PLAIN CHEESE?",
+      "deal": "2 ALOHA PIES.",
+      "dealDetail": "PINEAPPLE & HAM.",
+      "price": "$17",
+      "callToAction": "SAY ALOHA NOW",
+      "effect": "spin"
+    },
+    {
+      "name": "Margherita",
+      "look": "margherita",
+      "hook": "FANCY PRICES?",
+      "deal": "2 MARGHERITAS.",
+      "dealDetail": "FRESH MOZZARELLA.",
+      "price": "$15",
+      "callToAction": "TASTE NAPOLI NOW",
+      "effect": "slide"
+    },
+    {
+      "name": "Meat Feast",
+      "look": "meat-feast",
+      "hook": "SKIMPY SLICES?",
+      "deal": "2 MEAT FEASTS.",
+      "dealDetail": "5 MEATS. NO MERCY.",
+      "price": "$22",
+      "callToAction": "FEED THE BEAST",
+      "effect": "swing"
+    },
+    {
+      "name": "Hot Honey",
+      "look": "hot-honey",
+      "hook": "MILD PIZZA?",
+      "deal": "2 SPICY PIES.",
+      "dealDetail": "HOT HONEY DRIZZLE.",
+      "price": "$19",
+      "callToAction": "TURN UP THE HEAT",
+      "effect": "original"
+    },
+    {
+      "name": "Four Cheese",
+      "look": "four-cheese",
+      "hook": "SKIMPY CHEESE?",
+      "deal": "2 CHEESE PIES.",
+      "dealDetail": "4 CHEESES. NO LIMIT.",
+      "price": "$16",
+      "callToAction": "SAY CHEESE NOW",
+      "effect": "slam"
+    },
+    {
+      "name": "Dessert pizza",
+      "look": "dessert",
+      "hook": "DRY DESSERTS?",
+      "deal": "2 SWEET PIES.",
+      "dealDetail": "CHOCOLATE & BERRIES.",
+      "price": "$14",
+      "callToAction": "TREAT YOURSELF",
+      "effect": "drop"
+    }
+  ],
+  "effects": {
+    "label": "Motion",
+    "items": [
+      {
+        "id": "original",
+        "label": "As designed"
+      },
+      {
+        "id": "slam",
+        "label": "Slam",
+        "motion": {
+          "Pizza Slice Cutout": "slam",
+          "Pizza Slice Left": "slam",
+          "Pizza Slice Right": "slam",
+          "Teal Starburst Cutout": "slam",
+          "Button Group Null": "slam"
+        }
+      },
+      {
+        "id": "drop",
+        "label": "Drop in",
+        "motion": {
+          "Headline Rig Master": "drop",
+          "Pizza Slice Left": "drop",
+          "Pizza Slice Right": "drop",
+          "Deal": "drop",
+          "Deal detail": "drop",
+          "Teal Starburst Cutout": "drop",
+          "Button Group Null": "rise"
+        }
+      },
+      {
+        "id": "spin",
+        "label": "Spin",
+        "motion": {
+          "Pizza Slice Cutout": "spin",
+          "Pizza Slice Left": "spin",
+          "Pizza Slice Right": "spin",
+          "Teal Starburst Cutout": "spin",
+          "Button Group Null": "pop"
+        }
+      },
+      {
+        "id": "slide",
+        "label": "Slide",
+        "motion": {
+          "Yellow Strip 1 - Top": "slide-left",
+          "Yellow Strip 2 - Middle": "slide-right",
+          "Yellow Strip 3 - Bottom": "slide-left",
+          "Pizza Slice Left": "slide-left",
+          "Pizza Slice Right": "slide-right",
+          "Teal Starburst Cutout": "slide-right",
+          "Button Group Null": "slide-left"
+        }
+      },
+      {
+        "id": "swing",
+        "label": "Swing",
+        "motion": {
+          "Yellow Strip 1 - Top": "swing",
+          "Yellow Strip 2 - Middle": "swing",
+          "Yellow Strip 3 - Bottom": "swing",
+          "Pizza Slice Cutout": "swing",
+          "Teal Starburst Cutout": "swing",
+          "Button Group Null": "swing"
+        }
+      }
+    ]
+  }
+}

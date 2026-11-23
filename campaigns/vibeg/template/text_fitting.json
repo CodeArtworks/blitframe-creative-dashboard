@@ -1,0 +1,14 @@
+{
+  "layers": [
+    {
+      "nm": "Intro text",
+      "textFit": {
+        "shrink": "toFit",
+        "region": {
+          "source": "originalBounds"
+        },
+        "minSize": 10
+      }
+    }
+  ]
+}

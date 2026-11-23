@@ -1,0 +1,84 @@
+{
+  "layers": [
+    {
+      "nm": "Model",
+      "textFit": {
+        "shrink": "toFit",
+        "region": {
+          "source": "rect",
+          "rect": [
+            120,
+            300,
+            820,
+            440
+          ]
+        },
+        "minSize": 20
+      }
+    },
+    {
+      "nm": "Movement",
+      "textFit": {
+        "shrink": "toFit",
+        "region": {
+          "source": "rect",
+          "rect": [
+            120,
+            640,
+            820,
+            110
+          ]
+        },
+        "minSize": 20
+      }
+    },
+    {
+      "nm": "Forged in",
+      "textFit": {
+        "shrink": "toFit",
+        "region": {
+          "source": "rect",
+          "rect": [
+            1000,
+            520,
+            820,
+            200
+          ]
+        },
+        "minSize": 20
+      }
+    },
+    {
+      "nm": "Finish",
+      "textFit": {
+        "shrink": "toFit",
+        "region": {
+          "source": "rect",
+          "rect": [
+            1000,
+            700,
+            820,
+            110
+          ]
+        },
+        "minSize": 20
+      }
+    },
+    {
+      "nm": "Call to action",
+      "textFit": {
+        "shrink": "toFit",
+        "region": {
+          "source": "rect",
+          "rect": [
+            460,
+            860,
+            1000,
+            190
+          ]
+        },
+        "minSize": 20
+      }
+    }
+  ]
+}

@@ -1,0 +1,295 @@
+{
+  "order": 4,
+  "name": "Solaris Genève",
+  "tagline": "Watch launch · 8 models",
+  "project": "Creative dashboard: Solaris Genève",
+  "description": "Every card is a variant of one 12-second launch for a 1970s-style chronograph. Each model brings its own dial, case, strap and golden-hour setting, photographed like the original. Pick a model or mix the art, change the copy, give it a motion, then render every changed card.",
+  "columns": [
+    {
+      "id": "model",
+      "label": "Model name",
+      "kind": "text",
+      "layer": "Model",
+      "maxLength": 24,
+      "default": "THE AURELIA\nCHRONO",
+      "multiline": true
+    },
+    {
+      "id": "movement",
+      "label": "Movement",
+      "kind": "text",
+      "layer": "Movement",
+      "maxLength": 20,
+      "default": "SWISS AUTOMATIC"
+    },
+    {
+      "id": "forgedIn",
+      "label": "Forged in",
+      "kind": "text",
+      "layer": "Forged in",
+      "maxLength": 10,
+      "default": "WARMTH"
+    },
+    {
+      "id": "finish",
+      "label": "Finish",
+      "kind": "text",
+      "layer": "Finish",
+      "maxLength": 18,
+      "default": "18K BRUSHED GOLD"
+    },
+    {
+      "id": "callToAction",
+      "label": "Call to action",
+      "kind": "text",
+      "layer": "Call to action",
+      "maxLength": 16,
+      "default": "OWN THE ERA"
+    },
+    {
+      "id": "watch",
+      "label": "Watch",
+      "kind": "image",
+      "layer": "Watch",
+      "original": "images/watch.png",
+      "library": "images/library/watch/"
+    },
+    {
+      "id": "profile",
+      "label": "Watch profile",
+      "kind": "image",
+      "layer": "Watch profile",
+      "original": "images/profile.png",
+      "library": "images/library/profile/"
+    },
+    {
+      "id": "background",
+      "label": "Background",
+      "kind": "image",
+      "layer": "Background",
+      "original": "images/background.jpg",
+      "library": "images/library/background/",
+      "fit": "cover"
+    }
+  ],
+  "looks": {
+    "label": "Model",
+    "items": [
+      {
+        "id": "original",
+        "label": "Aurelia"
+      },
+      {
+        "id": "marina",
+        "label": "Marina"
+      },
+      {
+        "id": "monza",
+        "label": "Monza"
+      },
+      {
+        "id": "nocturne",
+        "label": "Nocturne"
+      },
+      {
+        "id": "panda",
+        "label": "Panda"
+      },
+      {
+        "id": "tropic",
+        "label": "Tropic"
+      },
+      {
+        "id": "soleil",
+        "label": "Soleil"
+      },
+      {
+        "id": "rosa",
+        "label": "Rosa"
+      }
+    ]
+  },
+  "preview": [
+    {
+      "column": "background",
+      "box": [
+        0,
+        0,
+        38,
+        100
+      ],
+      "fit": "cover"
+    },
+    {
+      "src": "preview.jpg",
+      "box": [
+        38,
+        0,
+        62,
+        100
+      ],
+      "fit": "cover"
+    },
+    {
+      "column": "watch",
+      "box": [
+        43.59,
+        25.54,
+        50.82,
+        48.91
+      ]
+    },
+    {
+      "text": "callToAction",
+      "box": [
+        44,
+        76.5,
+        50,
+        10
+      ],
+      "size": 6.48,
+      "font": "'Bebas Neue'",
+      "weight": 400,
+      "color": "#D96B27",
+      "align": "center",
+      "background": "#F1EDE3"
+    }
+  ],
+  "rows": [
+    {
+      "name": "Aurelia launch",
+      "look": "original",
+      "effect": "original"
+    },
+    {
+      "name": "Marina blue",
+      "look": "marina",
+      "model": "THE MARINA\nCHRONO",
+      "movement": "SWISS AUTOMATIC",
+      "forgedIn": "SALT AIR",
+      "finish": "BRUSHED STEEL",
+      "callToAction": "OWN THE TIDE",
+      "effect": "slam"
+    },
+    {
+      "name": "Monza racing green",
+      "look": "monza",
+      "model": "THE MONZA\nCHRONO",
+      "movement": "FLYBACK CHRONOGRAPH",
+      "forgedIn": "SPEED",
+      "finish": "18K YELLOW GOLD",
+      "callToAction": "OWN THE ROAD",
+      "effect": "drop"
+    },
+    {
+      "name": "Nocturne black",
+      "look": "nocturne",
+      "model": "THE NOCTURNE\nCHRONO",
+      "movement": "SWISS AUTOMATIC",
+      "forgedIn": "SHADOW",
+      "finish": "BLACK PVD STEEL",
+      "callToAction": "OWN THE NIGHT",
+      "effect": "spin"
+    },
+    {
+      "name": "Panda dial",
+      "look": "panda",
+      "model": "THE PANDA\nCHRONO",
+      "movement": "HAND-WOUND CALIBRE",
+      "forgedIn": "CONTRAST",
+      "finish": "SATIN STEEL",
+      "callToAction": "OWN THE RACE",
+      "effect": "slide"
+    },
+    {
+      "name": "Tropic brown",
+      "look": "tropic",
+      "model": "THE TROPIC\nCHRONO",
+      "movement": "SWISS AUTOMATIC",
+      "forgedIn": "SUNLIGHT",
+      "finish": "18K AGED GOLD",
+      "callToAction": "OWN THE SUMMER",
+      "effect": "swing"
+    },
+    {
+      "name": "Soleil orange",
+      "look": "soleil",
+      "model": "THE SOLEIL\nCHRONO",
+      "movement": "SWISS AUTOMATIC",
+      "forgedIn": "FIRE",
+      "finish": "BRUSHED STEEL",
+      "callToAction": "OWN THE SUN",
+      "effect": "original"
+    },
+    {
+      "name": "Rosa rose gold",
+      "look": "rosa",
+      "model": "THE ROSA\nCHRONO",
+      "movement": "SWISS AUTOMATIC",
+      "forgedIn": "TWILIGHT",
+      "finish": "18K ROSE GOLD",
+      "callToAction": "OWN THE EVENING",
+      "effect": "slam"
+    }
+  ],
+  "effects": {
+    "label": "Motion",
+    "items": [
+      {
+        "id": "original",
+        "label": "As designed"
+      },
+      {
+        "id": "slam",
+        "label": "Slam",
+        "motion": {
+          "Hero watch": "slam",
+          "Arch Window Precomp": "slam",
+          "Ending watch": "slam"
+        }
+      },
+      {
+        "id": "drop",
+        "label": "Drop in",
+        "motion": {
+          "Typography Drift Null": "drop",
+          "Hero watch": "drop",
+          "Arch Window Precomp": "drop",
+          "Ending watch": "drop"
+        }
+      },
+      {
+        "id": "spin",
+        "label": "Spin",
+        "motion": {
+          "Hero watch": "spin",
+          "Ending watch": "spin",
+          "Arch Window Precomp": "pop"
+        }
+      },
+      {
+        "id": "slide",
+        "label": "Slide",
+        "motion": {
+          "Typography Drift Null": "slide-left",
+          "Hero watch": "slide-right",
+          "Model": "slide-left",
+          "Movement": "slide-left",
+          "Arch Window Precomp": "slide-left",
+          "Forged in": "slide-right",
+          "Finish": "slide-right",
+          "Ending watch": "slide-right"
+        }
+      },
+      {
+        "id": "swing",
+        "label": "Swing",
+        "motion": {
+          "Hero watch": "swing",
+          "Ending watch": "swing",
+          "Arch Window Precomp": "swing"
+        }
+      }
+    ]
+  }
+}

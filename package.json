@@ -1,0 +1,24 @@
+{
+  "name": "blitframe-creative-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A campaign dashboard on the Blitframe API: every row a variant, one batch render, live HLS previews.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "start": "vite",
+    "test": "node --test tests/"
+  },
+  "dependencies": {
+    "@phosphor-icons/react": "2.1.10",
+    "@vitejs/plugin-react": "5.0.4",
+    "csv-parse": "7.0.3",
+    "hls.js": "1.6.16",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "vite": "6.4.2"
+  }
+}

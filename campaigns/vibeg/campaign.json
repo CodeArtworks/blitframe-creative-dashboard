@@ -1,0 +1,275 @@
+{
+  "order": 1,
+  "name": "VIBEG Hypegrounds",
+  "tagline": "Game ad · 10 looks",
+  "project": "Creative dashboard: VIBEG",
+  "description": "Every card is a variant of one 15-second game ad, with art in the original style: a supply drop, a squad, a juggernaut, a new map and more. Pick a look or mix the art, change the copy, give it a motion, then render every changed card.",
+  "columns": [
+    {
+      "id": "introText",
+      "label": "Intro text",
+      "kind": "text",
+      "layer": "Intro text",
+      "maxLength": 24
+    },
+    {
+      "id": "headline",
+      "label": "Headline",
+      "kind": "image",
+      "layer": "Headline",
+      "original": "images/headline.png",
+      "library": "images/library/headline/"
+    },
+    {
+      "id": "subheadline",
+      "label": "Subheadline",
+      "kind": "image",
+      "layer": "Subheadline",
+      "original": "images/subheadline.png",
+      "library": "images/library/subheadline/"
+    },
+    {
+      "id": "offer",
+      "label": "Offer",
+      "kind": "image",
+      "layer": "Offer",
+      "original": "images/offer.png",
+      "library": "images/library/offer/",
+      "tall": {
+        "layer": "Tall offer",
+        "library": "images/library/offer-tall/",
+        "preview": [
+          72,
+          19,
+          16.5,
+          49
+        ]
+      }
+    },
+    {
+      "id": "callToAction",
+      "label": "Call to action",
+      "kind": "image",
+      "layer": "Call to action",
+      "original": "images/call-to-action.png",
+      "library": "images/library/call-to-action/"
+    }
+  ],
+  "looks": {
+    "label": "Look",
+    "items": [
+      {
+        "id": "original",
+        "label": "Hypegrounds"
+      },
+      {
+        "id": "airdrop-rush",
+        "label": "Airdrop Rush"
+      },
+      {
+        "id": "last-squad",
+        "label": "Last Squad"
+      },
+      {
+        "id": "siege-mode",
+        "label": "Siege Mode"
+      },
+      {
+        "id": "season-2",
+        "label": "Season 2"
+      },
+      {
+        "id": "double-xp",
+        "label": "Double XP"
+      },
+      {
+        "id": "legendary",
+        "label": "Legendary"
+      },
+      {
+        "id": "convoy",
+        "label": "Convoy"
+      },
+      {
+        "id": "frostbite",
+        "label": "Frostbite"
+      },
+      {
+        "id": "zona-de-guerra",
+        "label": "Zona de Guerra"
+      }
+    ]
+  },
+  "preview": [
+    {
+      "src": "preview.jpg",
+      "box": [
+        0,
+        0,
+        100,
+        100
+      ],
+      "fit": "cover",
+      "dim": true
+    },
+    {
+      "column": "headline",
+      "box": [
+        33,
+        3,
+        34,
+        22
+      ]
+    },
+    {
+      "column": "offer",
+      "box": [
+        63,
+        28,
+        33,
+        31
+      ]
+    },
+    {
+      "column": "subheadline",
+      "box": [
+        30,
+        68,
+        40,
+        9
+      ]
+    },
+    {
+      "column": "callToAction",
+      "box": [
+        27,
+        77,
+        46,
+        20
+      ]
+    }
+  ],
+  "rows": [
+    {
+      "name": "Hypegrounds launch",
+      "look": "original",
+      "introText": "presents",
+      "effect": "original"
+    },
+    {
+      "name": "Airdrop Rush event",
+      "look": "airdrop-rush",
+      "introText": "presents",
+      "effect": "slam"
+    },
+    {
+      "name": "Last Squad mode",
+      "look": "last-squad",
+      "introText": "presents",
+      "effect": "drop"
+    },
+    {
+      "name": "Juggernaut siege",
+      "look": "siege-mode",
+      "introText": "presents",
+      "effect": "spin"
+    },
+    {
+      "name": "Season 2: Dune City",
+      "look": "season-2",
+      "introText": "presents",
+      "effect": "slide"
+    },
+    {
+      "name": "Double XP weekend",
+      "look": "double-xp",
+      "introText": "presents",
+      "effect": "swing"
+    },
+    {
+      "name": "Legendary rifle drop",
+      "look": "legendary",
+      "introText": "presents",
+      "effect": "original"
+    },
+    {
+      "name": "Convoy vehicle",
+      "look": "convoy",
+      "introText": "presents",
+      "effect": "slam"
+    },
+    {
+      "name": "Frostbite winter",
+      "look": "frostbite",
+      "introText": "presents",
+      "effect": "drop"
+    },
+    {
+      "name": "Zona de Guerra",
+      "look": "zona-de-guerra",
+      "introText": "presenta",
+      "effect": "spin"
+    }
+  ],
+  "effects": {
+    "label": "Motion",
+    "items": [
+      {
+        "id": "original",
+        "label": "As designed"
+      },
+      {
+        "id": "slam",
+        "label": "Slam",
+        "motion": {
+          "Headline": "slam",
+          "Offer": "slam",
+          "Tall offer": "slam",
+          "Call to action": "slam"
+        }
+      },
+      {
+        "id": "drop",
+        "label": "Drop in",
+        "motion": {
+          "Headline": "drop",
+          "Subheadline": "drop",
+          "Offer": "drop",
+          "Tall offer": "drop",
+          "Call to action": "rise"
+        }
+      },
+      {
+        "id": "spin",
+        "label": "Spin",
+        "motion": {
+          "Offer": "spin",
+          "Tall offer": "spin",
+          "Headline": "pop",
+          "Call to action": "pop"
+        }
+      },
+      {
+        "id": "slide",
+        "label": "Slide",
+        "motion": {
+          "Headline": "slide-left",
+          "Subheadline": "slide-right",
+          "Offer": "slide-right",
+          "Tall offer": "slide-right",
+          "Call to action": "slide-left"
+        }
+      },
+      {
+        "id": "swing",
+        "label": "Swing",
+        "motion": {
+          "Headline": "swing",
+          "Offer": "swing",
+          "Tall offer": "swing",
+          "Call to action": "swing"
+        }
+      }
+    ]
+  }
+}
